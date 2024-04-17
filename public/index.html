@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz do Privilégio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="tela-inicial">
+        <h1>Bem-vindo ao Quiz do Privilégio</h1>
+        <button id="btnIniciar">Iniciar</button>
+      </div>
+      <div id="quiz" style="display: none">
+        <h1>Quiz do Privilégio</h1>
+        <div class="pergunta-container">
+          <p id="pergunta"></p>
+          <form id="formRespostas">
+            <div id="opcoes-resposta"></div>
+            <button type="submit" id="btnProxima">Próxima</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
